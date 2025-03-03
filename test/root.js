@@ -1,5 +1,5 @@
 global.expect = require('expect')
-
+require('jsdom-global')();
 const fs = require('fs')
 const jsdom = require('mocha-jsdom')
 const path = require('path')
