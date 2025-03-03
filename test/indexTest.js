@@ -1,5 +1,4 @@
 require ( './root.js' );
-require('jsdom-global')();
 
 const { name, height, message } = require("../index.js");
 
